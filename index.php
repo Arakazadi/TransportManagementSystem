@@ -4,7 +4,7 @@
     $cleardb_server = $cleardb_url["us-cdbr-east-04.cleardb.net"];
     $cleardb_username = $cleardb_url["b41d03081871e5"];
     $cleardb_password = $cleardb_url["239fb33a"];
-    $cleardb_db = substr($cleardb_url["heroku_5e97e1a347139a9"],1);
+    $cleardb_db = substr($cleardb_url["path"],1);
     $active_group = 'default';
     $query_builder = TRUE;
     // Connect to DB
