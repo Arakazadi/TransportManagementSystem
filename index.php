@@ -6,7 +6,7 @@
   //Get Heroku ClearDB connection information
     //Get Heroku ClearDB connection information
     $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-    $cleardb_server = $cleardb_url["localhost"];
+    $cleardb_server = $cleardb_url["host"];
     $cleardb_username = $cleardb_url["user"];
     $cleardb_password = $cleardb_url["pass"];
     $cleardb_db = substr($cleardb_url["config"],1);
@@ -90,7 +90,7 @@
         <div class="hero-text" style="font-size:50px; text-align: center; position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);color: white;">
            
             <h1 class="animated rubberBand" >Bus Transport Management System</h1>
-            <p>A management system where you can easily manage Transport ABCD</p>
+            <p>A management system where you can easily manage Transport</p>
             
             <?php if(isset($_SESSION['username'])==true) { ?>
             <a class="btn btn-success" style="text-align: center" href="buslist.php">Check Bus List</a>
@@ -141,7 +141,7 @@
                   Ruet's drivers are always on time and have excellent support. 
                   Every single one of them is a consummate professional who excels 
                   in what they do. Drivers are friendly and always enjoy while 
-                  doing their jobs which also makes the customers happy and motivated.
+                  doing their jobs which also makes the customers happy and motivated ABCD.
                 </p>
 
                 <p style="font-size:22px; text-align: center; color: green;">
