@@ -56,7 +56,7 @@ $cfg['Servers'][$i]['favorite'] = 'pma__favorite';
 
 /* Heroku remote server */
 $i++;
-$cfg["Servers"][$i]["host"] = "us-cdbr-east-04.cleardb.com"; //provide hostname
+$cfg["Servers"][$i]["host"] = "us-cdbr-east-04.cleardb.net"; //provide hostname
 $cfg["Servers"][$i]["user"] = "b41d03081871e5"; //user name for your remote server
 $cfg["Servers"][$i]["password"] = "239fb33a"; //password
 $cfg["Servers"][$i]["auth_type"] = "config"; // keep it as config
