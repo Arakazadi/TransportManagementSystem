@@ -1,5 +1,5 @@
 <?php
-    $connection=mysqli_connect("localhost","root","","vehicle management");
+    $connection= mysqli_connect("host","user","pass","heroku_5e97e1a347139a9");
 
     session_start();
     $msg="";
