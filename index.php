@@ -1,5 +1,5 @@
 <?php 
-    $connection=mysqli_connect("localhost","root","","vehicle management");
+    $connection=mysqli_connect("localhost","root","","heroku_5e97e1a347139a9");
     //Get Heroku ClearDB connection information
 $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 $cleardb_server = $cleardb_url["host"];
