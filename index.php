@@ -1,4 +1,5 @@
 <?php 
+//  $connection=mysqli_connect("localhost","root","","heroku_5e97e1a347139a9");
   //Get Heroku ClearDB connection information
     $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
     $cleardb_server = $cleardb_url["us-cdbr-east-04.cleardb.net"];
@@ -10,6 +11,7 @@
     // Connect to DB
     $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 
+// session_start();
 
 ?>
 
