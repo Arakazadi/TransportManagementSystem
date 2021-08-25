@@ -9,7 +9,7 @@ $connection= mysqli_connect("host","user","pass","heroku_5e97e1a347139a9");
     $cleardb_server = $cleardb_url["host"];
     $cleardb_username = $cleardb_url["user"];
     $cleardb_password = $cleardb_url["pass"];
-    $cleardb_db = substr($cleardb_url["path"],1);
+    $cleardb_db = substr($cleardb_url["config"],1);
     $active_group = 'default';
     $query_builder = TRUE;
     // Connect to DB
