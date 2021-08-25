@@ -90,7 +90,7 @@
         <div class="hero-text" style="font-size:50px; text-align: center; position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);color: white;">
            
             <h1 class="animated rubberBand" >Bus Transport Management System</h1>
-            <p>A management system where you can easily manage Transport</p>
+            <p>A management system where you can easily manage Transport ABCD</p>
             
             <?php if(isset($_SESSION['username'])==true) { ?>
             <a class="btn btn-success" style="text-align: center" href="buslist.php">Check Bus List</a>
