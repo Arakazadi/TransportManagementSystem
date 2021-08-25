@@ -2,7 +2,7 @@
 //  $connection=mysqli_connect("localhost","root","","heroku_5e97e1a347139a9");
 //$connection= mysqli_connect("localhost","root","","vehicle_management");
 
-$connection= mysqli_connect("host","user","pass","heroku_5e97e1a347139a9");
+//$connection= mysqli_connect("host","user","pass","heroku_5e97e1a347139a9");
   //Get Heroku ClearDB connection information
     //Get Heroku ClearDB connection information
     $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
